@@ -4,9 +4,9 @@ public class CalcVolume {
 	
 	/**
 	 * 
-	 * @param l
-	 * @param b
-	 * @param h
+	 * @param länge
+	 * @param breite
+	 * @param höhe
 	 * @return quaderV
 	 */
 	public Double quaderVolume(Double l, Double b, Double h) {
@@ -16,8 +16,8 @@ public class CalcVolume {
 	
 	/**
 	 * 
-	 * @param r
-	 * @param h
+	 * @param radius
+	 * @param höhe
 	 * @return kegelV
 	 */
 	public Double kegelVolume(Double r, Double h) {
@@ -27,8 +27,8 @@ public class CalcVolume {
 	
 	/**
 	 * 
-	 * @param r
-	 * @param h
+	 * @param radius
+	 * @param höhe
 	 * @return zylinderV
 	 */
 	public Double zylinderVolume(Double r, Double h) {
