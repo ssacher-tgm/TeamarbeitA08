@@ -4,7 +4,7 @@
 package area;
 
 /**
- * @author Felix Wöls
+ * @author Felix Wöls!
  * @version 01-12-2015
  * 
  */
