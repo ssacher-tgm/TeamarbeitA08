@@ -1,7 +1,7 @@
 /**
  * 
  */
-package woels;
+package area;
 
 /**
  * @author Felix Wöls
