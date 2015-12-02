@@ -3,7 +3,7 @@ package volume;
 public class CalcVolume {
 	
 	/**
-	 * !
+	 * !!
 	 * @param länge
 	 * @param breite
 	 * @param höhe
