@@ -17,7 +17,7 @@ public class FlaecheBerechnen {
 	 * @param breite des rechtecks
 	 * @return den flächen inhalt
 	 */
-	public double flaecheRechteck(double länge, double breite) {
+	public  double flaecheRechteck(double länge, double breite) {
 		double res = länge * breite;
 		return res;
 

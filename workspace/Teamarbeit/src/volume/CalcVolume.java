@@ -9,7 +9,7 @@ public class CalcVolume {
 	 * @param höhe
 	 * @return quaderV
 	 */
-	public Double quaderVolume(Double l, Double b, Double h) {
+	public  Double quaderVolume(Double l, Double b, Double h) {
 		Double quaderV = l*b*h;
 		return quaderV;
 	}
@@ -31,7 +31,7 @@ public class CalcVolume {
 	 * @param höhe
 	 * @return zylinderV
 	 */
-	public Double zylinderVolume(Double r, Double h) {
+	public  Double zylinderVolume(Double r, Double h) {
 		Double zylinderV = Math.PI*Math.pow(r, 2)*h;
 		return zylinderV;
 	}
