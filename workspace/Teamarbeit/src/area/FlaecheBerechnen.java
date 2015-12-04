@@ -4,7 +4,7 @@
 package area;
 
 /**
- * @author Felix Wöls!
+ * @author Felix Wöls
  * @version 01-12-2015
  * 
  */
@@ -28,8 +28,8 @@ public class FlaecheBerechnen {
 	 * @param radius des kreises
 	 * @return res flächeninhalt eines kreises
 	 */
-	public double fleacheKreis(double radius) {
-		double res = radius * radius * Math.PI;
+	public double flaecheKreis(double radius) {
+		double res = Math.pow(radius, 2) * Math.PI;
 		return res;
 	}
 
@@ -39,8 +39,8 @@ public class FlaecheBerechnen {
 	 * @param h höhe des dreiecks
 	 * @return
 	 */
-	public double fleacheDreieck(double a, double h) {
-		double res = a * h / 2;
+	public double flaecheDreieck(double a, double h) {
+		double res = (a * h)/ 2;
 		return res;
 
 	}
