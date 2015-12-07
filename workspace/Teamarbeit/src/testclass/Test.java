@@ -8,11 +8,10 @@ import volume.CalcVolume;
  * testet alle anderen klassen 
  * @author Filipovic
  * @version 1.12.15
- *
  */
 public class Test {
 
-	private static double l,b,h,r;
+	private static double l,b,h,r,a;
 	private static CalcVolume V = new CalcVolume();
 	private static FlaecheBerechnen A = new FlaecheBerechnen();
 	private static MaxMinSumme M = new MaxMinSumme();
@@ -32,9 +31,12 @@ public class Test {
 		System.out.println("Vkreis("+r+") = " + A.flaecheKreis(r));
 		l=10; h=23;
 		System.out.println("Vdreieck("+l+", "+h+") = " + A.flaecheDreieck(l, h));
-		System.out.println("Summe:" + M.Summe(l,b));
-		System.out.println("Minumum:" + M.Minumum(l,b));
-		System.out.println("Maximum:" + M.Maximum(l,b));
+		a=1; b=245;
+		System.out.println("Summe:" + M.Summe(a,b));
+		a=123; b=23;
+		System.out.println("Minumum:" + M.Minumum(a,b));
+		a=456; b=457;
+		System.out.println("Maximum:" + M.Maximum(a,b));
 	}
 
 }
