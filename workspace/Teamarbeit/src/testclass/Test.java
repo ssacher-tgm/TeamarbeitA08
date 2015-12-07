@@ -15,6 +15,10 @@ public class Test {
 	private static CalcVolume V = new CalcVolume();
 	private static FlaecheBerechnen A = new FlaecheBerechnen();
 	private static MaxMinSumme M = new MaxMinSumme();
+	/**
+	 * die main methode gibt die tests aus
+	 * @param args
+	 */
 	public static void main(String[] args) {
 
 		l=10; b=20; h=5;
